@@ -1,0 +1,89 @@
+
+
+/* MAIN BODY */
+
+html,
+body {
+  height: 100%;
+  background-color: #0ab8b85d;
+  
+}
+
+.parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 50px 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.center {
+  background-color: #d7f0ee;
+  width: 50%;
+  height: 50%;
+}
+
+.wrapper {
+  border-radius: 40px;
+  height: auto;
+  /* grid-auto-rows: 200px; */
+}
+
+/* SMALL ITEMS */
+
+.box1 {
+  overflow-wrap: break-word;
+  padding: 10px;
+  min-height:auto;
+  background-color: aliceblue;
+  margin: 25px 15px;
+  font-size: 24px;
+  border-radius: 22px;
+}
+
+.box2 {
+  overflow-wrap: break-word;
+  /* display: inline-block;
+  position: relative; */
+  left: 35%;
+  font-style: italic;
+  font-size: 1.5em;
+  /* width: auto; */
+}
+
+.box3 {
+  border: 5px rgb(255, 255, 255) solid;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.box4 {
+  width: auto;
+  height: 50px; 
+  background-color: rgb(255, 255, 255);
+  border: 5px rgb(255, 255, 255) solid;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: 600;
+  color: #129fc2;
+  font-size: 1.1rem;
+}
+
+/* PSEUDO STYLES */
+
+
+.box3:hover {
+  background-color: rgb(223, 221, 221);
+}
+
+.box4:hover {
+  background-color: rgb(213, 216, 216);
+  
+}
